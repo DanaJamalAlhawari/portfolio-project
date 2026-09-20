@@ -9,6 +9,12 @@ education, and contact information using a responsive and modern design.
 Wireframe & Mockup:
 https://www.figma.com/design/FbeqwRXuBsck3n98UF9ym6/Untitled?node-id=3-214&t=TkKIhxv4rjaGxaQC-1
 
+## 🌐 Live Demo
+
+You can view the live version of my portfolio here:
+
+🔗 [View Live Portfolio](https://danajamalalhawari.github.io/portfolio-project/)
+
 ---
 
 ## Technologies Used
