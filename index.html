@@ -14,35 +14,23 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./css/style2.css">
 </head>
 <body>
     <nav class="navbar">
     <div class="nav-icons">
 
-        <a href="#home" title="Home">
-            <i class="fas fa-home"></i>
-        </a>
+       <a href="#home">Home</a>
 
-        <a href="#education" title="Education">
-            <i class="fas fa-graduation-cap"></i>
-        </a>
+        <a href="#education">Education</a>
 
-        <a href="#experience" title="Experience">
-            <i class="fas fa-briefcase"></i>
-        </a>
+        <a href="#experience">Experience</a>
 
-        <a href="#projects" title="Projects">
-            <i class="fas fa-folder"></i>
-        </a>
+        <a href="#projects">Projects</a>
 
-        <a href="#skills" title="Skills">
-            <i class="fas fa-code"></i>
-        </a>
+        <a href="#skills">Skills</a>
 
-        <a href="#contact" title="Contact">
-            <i class="fas fa-envelope"></i>
-        </a>
+        <a href="#contact">Contact</a>
 
     </div>
 </nav>
@@ -143,9 +131,9 @@
 
     <div class="hero-buttons">
 
-        <a href="#contact" class="btn btn-primary">
+        <!-- <a href="#contact" class="btn btn-primary">
             Connect With Me
-        </a>
+        </a> -->
 
         <a href="#projects" class="btn btn-secondary">
             My Projects
@@ -488,154 +476,35 @@
 
 <section id="skills">
 
-    <h2>Skills</h2>
+     <h2>Skills</h2>
+                <div class="skills-grid">
 
-    <!-- Slider controls -->
-    <input type="radio" name="skills-slider" id="skill-slide-1" checked>
-    <input type="radio" name="skills-slider" id="skill-slide-2">
-    <input type="radio" name="skills-slider" id="skill-slide-3">
-    <input type="radio" name="skills-slider" id="skill-slide-4">
-    <input type="radio" name="skills-slider" id="skill-slide-5">
-
-
-    <div class="skills-slider">
-
-        <div class="skills-track">
-
-            <div class="skill-slide">
-
-                <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h4>Frontend Development</h4>
-                    <p>HTML, CSS, JavaScript, React, Bootstrap</p>
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Frontend Development</h4>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-laravel"></i>
+                        <h4>Backend Development</h4>
+                        <p>PHP,laravel</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database"></i>
+                        <h4>DataBase</h4>
+                        <p>SQL Server,MYSQL,Oracel</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Mobile Design</h4>
+                        <p> Responsive Design</p>
+                    </div>   
+                    <div class="skill-card">
+                         <i class="fa-solid fa-robot"></i>
+                        <h4>Artificial Intelligence</h4>
+                        <p>ML,DL,NLP</p>
+                    </div>
                 </div>
-
-            </div>
-
-
-            <div class="skill-slide">
-
-                <div class="skill-card">
-                    <i class="fa-brands fa-laravel"></i>
-                    <h4>Backend Development</h4>
-                    <p>PHP, Laravel, REST APIs</p>
-                </div>
-
-            </div>
-
-
-            <div class="skill-slide">
-
-                <div class="skill-card">
-                    <i class="fa-solid fa-database"></i>
-                    <h4>DataBase</h4>
-                    <p>SQL Server, MYSQL, Oracle</p>
-                </div>
-
-            </div>
-
-
-            <div class="skill-slide">
-
-                <div class="skill-card">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h4>Mobile Design</h4>
-                    <p>Responsive Design, Bootstrap</p>
-                </div>
-
-            </div>
-
-
-            <div class="skill-slide">
-
-                <div class="skill-card">
-                    <i class="fa-solid fa-robot"></i>
-                    <h4>Artificial Intelligence</h4>
-                    <p>ML, DL, NLP</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- Arrows -->
-    <div class="skills-arrows">
-
-
-        <!-- Slide 1 -->
-        <div class="arrows arrows-1">
-
-            <label for="skill-slide-5">
-                <i class="fas fa-arrow-left"></i>
-            </label>
-
-            <label for="skill-slide-2">
-                <i class="fas fa-arrow-right"></i>
-            </label>
-
-        </div>
-
-
-        <!-- Slide 2 -->
-        <div class="arrows arrows-2">
-
-            <label for="skill-slide-1">
-                <i class="fas fa-arrow-left"></i>
-            </label>
-
-            <label for="skill-slide-3">
-                <i class="fas fa-arrow-right"></i>
-            </label>
-
-        </div>
-
-
-        <!-- Slide 3 -->
-        <div class="arrows arrows-3">
-
-            <label for="skill-slide-2">
-                <i class="fas fa-arrow-left"></i>
-            </label>
-
-            <label for="skill-slide-4">
-                <i class="fas fa-arrow-right"></i>
-            </label>
-
-        </div>
-
-
-        <!-- Slide 4 -->
-        <div class="arrows arrows-4">
-
-            <label for="skill-slide-3">
-                <i class="fas fa-arrow-left"></i>
-            </label>
-
-            <label for="skill-slide-5">
-                <i class="fas fa-arrow-right"></i>
-            </label>
-
-        </div>
-
-
-        <!-- Slide 5 -->
-        <div class="arrows arrows-5">
-
-            <label for="skill-slide-4">
-                <i class="fas fa-arrow-left"></i>
-            </label>
-
-            <label for="skill-slide-1">
-                <i class="fas fa-arrow-right"></i>
-            </label>
-
-        </div>
-
-    </div>
-
 </section>
 
 
